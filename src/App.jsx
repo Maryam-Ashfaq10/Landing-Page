@@ -1,14 +1,15 @@
 import React from 'react'
-import './App.css'
 import Navbar from './components/Navbar'
-import PageBody from './components/PageBody'
+import Body1 from './components/Body1'
+import Body2 from './components/Body2'
 
 function App() {
 
   return (
     <>
       <Navbar/>
-      <PageBody/>
+      <Body1/>
+      <Body2/>
       
     </>
   )
